@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		<link rel="stylesheet" type="text/css" href="hacking.css">
+	<script type="text/javascript" src="hacking.js"></script>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+	<title>Page 1</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <body style="background-color:lightgrey;">
+    </body>
+<br><br>
+
+ <div class="jumbotron">
+<form>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationServer01">First name</label>
+      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Benjamin" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <label for="validationServer02">Last name</label>
+      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Ouazana" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationServerUsername">Mail</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend3">@</span>
+        </div>
+        <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="E-mail" aria-describedby="inputGroupPrepend3" required>
+        <div class="invalid-feedback">
+          Please choose a email.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer03">Login</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      <div class="invalid-feedback">
+        Please 8 characters (12@#:)
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer04">Genre</label>
+      <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="Genre" required>
+      <div class="invalid-feedback">
+        Please provide a valid genre.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer05">Age</label>
+      <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="18+" required>
+      <div class="invalid-feedback">
+        Please provide a valid age.
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+      <label class="form-check-label" for="invalidCheck3">
+        I agree to receiving news from OUAZOU via E-mail.
+      </label>
+
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Agree to terms and conditions
+      </label>
+
+
+
+
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+
+
+
+  <button class="btn btn-primary" type="submit" href="hacking3.html">Sign Up</button>
+</form>
+
+
+
+
+
+  <!-- Texte de presentation du site -->
+
+ <p class="lead">
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Attention</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <div class="modal-body">
+          You don't have the required age, you need the consent of a parent or legal guardian.
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="alert alert-success" role="alert">
+    <p class="mb-0">If you aren't 18, press the blue button below</p>
+</div>
+
+ 
+  <!-- Button + alerte -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      -18
+  </button>
+
+
+
+</body>
+</html>

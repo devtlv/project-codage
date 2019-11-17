@@ -1,0 +1,33 @@
+body {
+	padding: 20px;
+}
+
+.visible {
+	
+    box-shadow: 6px 6px 6px white;
+}
+
+.card-body {
+	position: 20px;
+}
+
+footer {
+	color: yellow;
+}
+
+
+<form name="my">
+  <input name="one" value="1">
+  <input name="two" value="2">
+</form>
+
+<script>
+  let form = document.forms.my; // <form name="my"> element
+  let elem = form.elements.one; // <input name="one"> element
+
+  console.log(elem.value); // 1
+  elem.value = 'hey' // value = 'hey'
+
+  //If it's radio button
+  console.log(input.checked)// true OR false
+</script>

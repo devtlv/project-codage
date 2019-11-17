@@ -1,0 +1,23 @@
+body {
+	padding: 20px;
+}
+
+
+p {
+	font-size: 30px;
+}
+
+
+.card img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+color:black;
+background-color:white;
+background-image:url(netflix.png);
+margin:0;
+}
